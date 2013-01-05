@@ -1,0 +1,23 @@
+@media screen {
+span.screen {visibility:visible !important; -webkit-appearance:window; -moz-appearance:window;}
+p.story {font: icon; -webkit-appearance:button; -moz-appearance:button;border-width:thick; border-color:Gold;}
+p.conv {font:caption;float:left;}
+body {font:message-box; -webkit-appearance:button; -moz-appearance:button;cursor:move;}
+h1:before {counter-reset:section subsec; counter-increment:chapter; content:counter(chapter) ". ";}
+h2:before {counter-reset: subsec; counter-increment:section; content:counter(chapter) "." counter(section) ". ";}
+h3:before {counter-increment:subsec; content:counter(chapter) "." counter(section) "." counter(subsec) ". ";}
+a {cursor:crosshair; font:caption; -webkit-appearance:button; -moz-appearance:button;}
+a:active {cursor:progress; color:gold}
+}
+@media speech {
+p.story {voice-family:Cellos;}
+span.audio {speak:normal !important;} 
+}
+@media handheld {
+span.phone {visibility:visible !important; -webkit-appearance:window; -moz-appearance:window;}}
+@media tv {
+span.webtv {visibility:visible !important; -webkit-appearance:window; -moz-appearance:window;}}
+@media print{
+span.printer {visibility:visible !important; -webkit-appearance:window; -moz-appearance:window;}}
+@media all{
+span {visibility:hidden;speak:none}}

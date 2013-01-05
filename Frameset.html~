@@ -1,0 +1,15 @@
+				   
+<html>
+<link rel="stylesheet" type="text/css" href="gamestyle.css" media="all">
+<head>
+  <title>CONTROLS</title>
+  
+</head>
+<frameset>
+<frame src="http://plus.google.com">
+<frame src="Commands.html">
+<br>Command is:{{robocmd}}
+</body>
+
+
+</html>
